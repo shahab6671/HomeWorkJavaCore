@@ -3,8 +3,8 @@ package homework03javabasic;
 
 public class AboutMe {
 	
-	// Veriable declare line number is(9)
-	// Veriable initialized line number is(10)
+	// Variable declare line number is(9)
+	// Variable initialized line number is(10)
 
 	public String myName;
 	public String my_name="Shahab Uddin";
