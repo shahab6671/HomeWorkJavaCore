@@ -7,8 +7,7 @@ public class AnimalTest {
 		animal.animalInfo();
 		
 		System.out.println("\n......02.......Mammal.............\n");
-		Mammal mammal = new Mammal(); // here animal is parents class so mammal(child class)can inherit animal as
-										// a(parents class)
+		Mammal mammal = new Mammal(); // here animal is parents class so mammal(child class)can inherit animal as a(parents class)
 		mammal.mammalInfo();
 		mammal.animalInfo();
 
