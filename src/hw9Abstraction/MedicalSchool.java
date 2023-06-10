@@ -12,7 +12,5 @@ public abstract class MedicalSchool {
 		System.out.println("This is from biochemistryLab non abstract method");
 
 	}
-	
-	
 
 }

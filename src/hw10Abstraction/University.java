@@ -1,9 +1,22 @@
 package hw10Abstraction;
 
-public interface University {
+ /*
+   We can inherit from one or more interfaces. 
+   A regular class or abstract class cannot extends or implements in interface.
+ */
+//public University()  so interface can not contain default constructor.
+
+public interface University extends College, Hospital {
 	public void classSize();
+
 	public void playGround();
 	public void teacher();
-//	public University() {}, so interface can not contain default constructor.
+
+	public default void gymnasium() {
+	}
+
+	public static void library() {
+
+	}
 
 }

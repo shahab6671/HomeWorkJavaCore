@@ -3,8 +3,8 @@ package hw8Inheritance;
 public class AnimalTest {
 	public static void main(String[] args) {
 		System.out.println("\n.......01.......Animal...............\n");
-		Animal animal = new Animal();// parents class
-		animal.animalInfo();
+		Animal animal = new Animal();
+		animal.animalInfo();// parents class
 		
 		System.out.println("\n......02.......Mammal.............\n");
 		Mammal mammal = new Mammal(); // here animal is parents class so mammal(child class)can inherit animal as a(parents class)
