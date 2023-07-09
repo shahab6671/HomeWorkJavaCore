@@ -1,4 +1,4 @@
-package hw11Abstraction;
+package hw12Abstraction;
 /*
  	// Extends and implements keyword are used for the inheritance in abstract class.
 	// Abstract class can inherit other abstract class by extends key word.
@@ -22,6 +22,7 @@ public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	}
 	public static void medicalSchool() {
 	}
+	
 	//default method can't be created in abstract class
 	/*
 	public default void name() {
